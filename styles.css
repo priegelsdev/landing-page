@@ -32,6 +32,20 @@ header ul {
   display: flex;
 }
 
+.intro-content {
+  margin: 0 20px;
+}
+
 h1 {
+  font-size: 28px;
   margin: 0;
+}
+
+.intro-button {
+  background-color:#3B82F6;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
