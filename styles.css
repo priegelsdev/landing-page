@@ -2,7 +2,7 @@
 
 * {
  box-sizing: border-box; 
- font-family: sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -53,13 +53,15 @@ h1 {
   color: #F9FAF8;
 }
 
-.intro-button {
+button {
   background-color:#3B82F6;
   color: white;
   font-weight: 700;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 5px 15px;
+  min-height: 30px;
+  min-width: 90px;
 }
 
 /** INFO **/
@@ -120,4 +122,39 @@ h1 {
   text-align: end;
   margin-right: 20px;
   font-weight: bolder;
+}
+
+/** ACTION **/
+
+.action {
+  height: 30vh;
+}
+
+.action-container {
+  background-color: #3B82F6;
+  margin: 70px 140px ;
+  padding: 30px 105px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  min-height: 150px;
+  border-radius: 7px;
+  color: white;
+}
+
+.action-button {
+  border: 2px white solid;
+  color: white;
+  margin-left: 50px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.action-container p {
+  margin: 0;
+  color: #E5E7EB;
 }
