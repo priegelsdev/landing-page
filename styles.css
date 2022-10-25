@@ -9,11 +9,14 @@ body {
   margin: 0px;
 }
 
+section {
+  min-height: 45vh;
+}
+
 /** HEADER **/
 
 header {
   background-color: #1F2937;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +28,23 @@ header ul {
   list-style: none;
   display: flex;
   gap: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #516072;
+}
+
+header a:active {
+  color: #3B82F6;
+}
+
+header a:visited {
+  color: #E5E7EB;
 }
 
 /** INTRO **/
@@ -62,6 +82,10 @@ button {
   padding: 5px 15px;
   min-height: 30px;
   min-width: 90px;
+}
+
+button:active {
+  background-color: #516072;
 }
 
 /** INFO **/
@@ -104,6 +128,9 @@ button {
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-container {
@@ -111,7 +138,7 @@ button {
 }
 
 .quote-text {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: lighter;
   font-style: italic;
   color: #1F2937;
@@ -122,12 +149,16 @@ button {
   text-align: end;
   margin-right: 20px;
   font-weight: bolder;
+  margin-top: 15px;
 }
 
 /** ACTION **/
 
 .action {
-  height: 30vh;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .action-container {
@@ -149,6 +180,10 @@ button {
   margin-left: 50px;
 }
 
+.action-button:active {
+  background-color: #1F2937;
+}
+
 h4 {
   font-size: 20px;
   margin: 5px 0;
@@ -161,7 +196,7 @@ h4 {
 
 .footer {
   background-color: #1F2937;
-  height: 200px;
+  min-height: 15vh;
   color: white;
   display: flex;
   align-items: center;
